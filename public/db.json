@@ -2,18 +2,28 @@
   "users": [
     {
       "id": 1,
-      "username": "admin",
-      "password": "admin123"
+      "username": "VeronikaAnim",
+      "password": "Admin"
     },
     {
       "id": 2,
-      "username": "user",
-      "password": "user123"
+      "username": "DariaAnim",
+      "password": "Admin"
     },
     {
       "id": 3,
-      "username": "MarkKoval",
-      "password": "Mark2254"
+      "username": "OleckAnim",
+      "password": "Admin"
+    },
+    {
+      "id": 4,
+      "username": "MarkAnim",
+      "password": "Admin"
+    },
+    {
+      "id": 5,
+      "username": "OlenaAnim",
+      "password": "Admin"
     }
   ],
   "tasks": []
