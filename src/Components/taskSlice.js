@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
 export const fetchTasks = createAsyncThunk("tasks/fetchTasks", async () => {

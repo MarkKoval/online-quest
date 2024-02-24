@@ -8,13 +8,9 @@ import {
   TextField,
   DialogActions,
   Box,
-  List,
-  ListItem,
-  ListItemText,
-  Typography,
 } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
-import { openDialog, closeDialog, updateForm, submitForm } from "./formSlice";
+import { openDialog, closeDialog, updateForm} from "./formSlice";
 import axios from "axios";
 import { DataGrid } from "@mui/x-data-grid";
 
@@ -23,68 +19,6 @@ const FormDialog = () => {
   const [tasks, setTasks] = useState([]);
   const { isOpen, form } = useSelector((state) => state.form);
 
-  // const columns = [
-  //   {
-  //     field: "id",
-  //     headerName: "№",
-  //     width: 30,
-  //     renderCell: (params) => (
-  //       <div>
-  //         <Typography>{params.id}</Typography>
-  //         <Typography>{params.name}</Typography>
-
-  //       </div>
-  //     )
-  //   },
-  //   {
-  //     field: "name",
-  //     headerName: "Назва",
-  //     width: 200,
-  //     renderCell: (params) => (
-  //       <div>
-  //         <Typography>{params.name}</Typography>
-
-  //       </div>
-  //     )
-  //   },
-  //   {
-  //     field: "describe",
-  //     headerName: "Опис",
-  //     width: 300,
-  //     renderCell: (params) => (
-  //       <div>
-  //         <Typography>{params.describe}</Typography>
-
-  //       </div>
-  //     )
-  //   },
-
-  // ];
-
-  // const columns = [
-  //   {
-  //     field: "id",
-  //     headerName: "ID",
-  //     width: 90,
-  //     renderCell: (param) => <div>{param.row.id}</div>,
-  //   },
-  //   {
-  //     field: "name",
-  //     headerName: "Name",
-  //     width: 150,
-  //     renderCell: (param) => <div>{param.row.name}</div>,
-  //   },
-  //   {
-  //     field: "describe",
-  //     headerName: "Describe",
-  //     width: 300,
-  //     renderCell: (param) => (
-  //       <div>
-  //         <Typography sx={{width:"200px", whiteSpace:"pre-wrap"}}>{param.row.describe}</Typography>
-  //       </div>
-  //     ),
-  //   },
-  // ];
 
   const handleChange = (event) => {
     const { name, value } = event.target;
