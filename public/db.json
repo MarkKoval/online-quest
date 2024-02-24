@@ -1,65 +1,19 @@
 {
   "users": [
     {
-      "tasks": [
-        {
-          "id": 1,
-          "name": "Math Quiz",
-          "describe": "A set of 10 multiple-choice math questions covering various topics such as algebra, geometry, and arithmetic."
-        },
-
-        {
-          "id": 2,
-          "name": "Word Scramble",
-          "describe": "Unscramble 10 words to reveal common English vocabulary. Great for improving language skills and vocabulary."
-        },
-
-        {
-          "id": 3,
-          "name": "Trivia Challenge",
-          "describe": "Test your knowledge with 10 trivia questions from diverse categories like history, science, entertainment, and sports."
-        },
-
-        {
-          "id": 4,
-          "name": "Code Puzzle",
-          "describe": "Solve 10 coding challenges to exercise your programming skills. Suitable for beginners and intermediate coders."
-        },
-
-        {
-          "id": 5,
-          "name": "Grammar Check",
-          "describe": "Identify and correct grammar mistakes in 10 sentences. Helpful for improving writing skills and language proficiency."
-        },
-
-        {
-          "id": 6,
-          "name": "Geography Quiz",
-          "describe": "Answer 10 geography questions about countries, capitals, landmarks, and geographical features around the world."
-        },
-
-        {
-          "id": 7,
-          "name": "Logic Riddles",
-          "describe": "Solve 10 logic riddles that challenge your critical thinking and problem-solving abilities."
-        },
-
-        {
-          "id": 8,
-          "name": "Science Experiment",
-          "describe": "Perform 10 simple science experiments at home to explore basic scientific principles and phenomena."
-        },
-        {
-          "id": 9,
-          "name": "Art History Quiz",
-          "describe": "Test your knowledge of art history with 10 questions about famous artists, movements, and masterpieces."
-        },
-        {
-          "id": 10,
-          "name": "Memory Game",
-          "describe": "Exercise your memory with a classic memory game featuring 10 pairs of images or words to match."
-        }
-      ]
+      "id": 1,
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user123"
+    },
+    {
+      "id": 3,
+      "username": "MarkKoval",
+      "password": "Mark2254"
     }
   ],
   "tasks": []
