@@ -44,7 +44,7 @@ const FormDialog = () => {
     };
 
     fetchTasks();
-  }, []);
+  }, [isOpen]);
 
   const handleSubmit = async () => {
     const binId = "65da573c266cfc3fde8ed7b9"; // Your existing bin ID
